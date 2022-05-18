@@ -26,6 +26,10 @@ public class Alfabeto extends Pictograma{
 		return alfabeto.substring(0,alfabeto.length()-2);
 		
 	}
+	public int cantidadLetras() {
+		return letras.length;
+	}
+	
 	public String[] getLetras() {
 		return letras;
 	}
