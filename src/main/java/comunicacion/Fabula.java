@@ -30,11 +30,11 @@ public class Fabula extends Escrito{
 		this.interpretacion = interpretacion;
 	}
 	@Override
-	int palabrasTotales(int palabrasPagina) {
+	public int palabrasTotales(int palabrasPagina) {
 		return this.getPaginas()*palabrasPagina*1;
 	}
 	@Override
-	String interpretacion() {
+	public String interpretacion() {
 		// TODO Auto-generated method stub
 		return this.interpretacion;
 	}

@@ -29,16 +29,16 @@ public class Periodico extends Escrito{
 	public void setInterpretacion(String interpretacion) {
 		this.interpretacion = interpretacion;
 	}
-	@Override
-	int palabrasTotales(int palabrasPagina) {
+	
+	public int palabrasTotales(int palabrasPagina) {
 		return this.getPaginas()*palabrasPagina*10;
 	}
-	@Override
-	String interpretacion() {
+	
+	public String interpretacion() {
 		// TODO Auto-generated method stub
 		return this.interpretacion;
 	}
-	@Override
+	
 	public String toString() {
 		// TODO Auto-generated method stub
 		return this.getOrigen()+
